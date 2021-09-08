@@ -1,0 +1,19 @@
+h1 {
+    font-size: 3em;
+    color:cadetblue
+  }
+
+.p1 {
+    font-family: 'Helvetica';
+    background-color: black;
+    color: white;
+}
+
+#singleelement {
+    color: purple;
+}
+
+p {
+    display: inline;
+}
+

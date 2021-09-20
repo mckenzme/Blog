@@ -1,0 +1,28 @@
+.parent {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.text {
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+.photoleft {
+    display: flex;
+    margin-right: 1%;
+    flex-direction: column;
+}
+
+.photoright {
+    display: flex;
+    margin-left: 1%;
+    flex-direction: column; 
+}
+
+img {
+    max-width: 50vh;
+}

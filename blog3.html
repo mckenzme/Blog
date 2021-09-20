@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Matt's Blog Post 3</title>
+        <link rel="stylesheet" type="text/css" href="blog3css.css"> 
+    </head>
+
+    <body>
+        <center><h1>Blog Post 3 - 9/19/2021</h1></center>
+
+        <div class = "parent">
+            <div class = "photoleft">
+                <img src="blog3penguin.jpg" alt="Penguin">
+                <img src="blog3code.png" alt="Code Example">
+            </div>
+            <div class = "text">
+                
+                <p>
+                    This week I wanted to start by getting some more information regarding flexbox, and specifically, different layouts for organizing a page.
+                    I found an article that described different common layouts, and how to accomplish each of the layouts. One of the ones that caught my eye was
+                    one which used flex-grow to create a middle box that was larger than the two surronding boxes. In the case of this blog post, I have the text
+                    in the larger middle section and the pictures of the penguins surronding it. I could've justified the content to have space-between,
+                    but since I was confused during class about flex-grow I wanted to incorporate it to make the middle section larger. <br> <br>
+                    I first set the flex-grow to 1 for the middle section, then added a 2% margin and the left and right images. This method also required me to
+                    fix the sizes of the two images, which I set a max-width. The article also explained that flex-grow would make it so that the text field in the
+                    middle of the screen would take up all of the remaining space within the parent box (thats not being used by the pictures). Below the pictures
+                    of the penguins, you can see the CSS code that I used to accomplish this. <br> <br>
+                    The link to this website I used this week can be found <a href="https://tobiasahlin.com/blog/common-flexbox-patterns/">here.</a> 
+
+                </p>
+            </div>
+            <div class = "photoright">
+                <img src="blog3penguin.jpg" alt="Penguin">
+                <img src="blog3code.png" alt="Code Example">
+            </div>
+        </div>
+    </body>
+</html>

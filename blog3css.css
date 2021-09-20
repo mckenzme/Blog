@@ -14,13 +14,11 @@
 .photoleft {
     display: flex;
     margin-right: 1%;
-    flex-direction: column;
 }
 
 .photoright {
     display: flex;
     margin-left: 1%;
-    flex-direction: column; 
 }
 
 img {
